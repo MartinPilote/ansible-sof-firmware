@@ -1,0 +1,1 @@
+# ansible-sof-firmware

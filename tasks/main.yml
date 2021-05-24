@@ -1,0 +1,9 @@
+---
+- name: Install Sound Open Firmware
+  package:
+    name:
+      - sof-firmware
+    state: latest
+  when:
+  - sof_firmware == true
+...
